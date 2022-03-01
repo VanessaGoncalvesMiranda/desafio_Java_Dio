@@ -28,9 +28,9 @@ public class Main {
         endereco2.setEstado("SP");
 
 
-        System.out.println(cliente1);
-        System.out.println(endereco1);
-        System.out.println(cliente2);
-        System.out.println(endereco2);
+        System.out.println("Cliente: " + cliente1 + "\nEndereço: " + endereco1);
+        System.out.println("\n------------\n");
+        System.out.println("Cliente: " + cliente2 + "\nEndereço: " + endereco2);
+
     }
 }
